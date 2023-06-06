@@ -53,6 +53,46 @@
       </tags>
   </entry>
   <entry>
+    <title>行测</title>
+    <url>/2023/06/06/%E8%A1%8C%E6%B5%8B/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>公务员</category>
+      </categories>
+      <tags>
+        <tag>行政职业能力测验</tag>
+        <tag>考公</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>申论</title>
+    <url>/2023/06/06/%E7%94%B3%E8%AE%BA/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>公务员</category>
+      </categories>
+      <tags>
+        <tag>考公</tag>
+        <tag>申论概述</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Nginx</title>
+    <url>/2023/05/30/nginx/</url>
+    <content><![CDATA[<p>Nginx是一个高性能的HTTP和反向代理web服务器</p>
+<h3 id="正向代理"><a href="#正向代理" class="headerlink" title="正向代理"></a>正向代理</h3><p>客户端将请求发给代理服务器，通过代理服务器将请求转发给服务器，比如VPN</p>
+<h3 id="反向代理"><a href="#反向代理" class="headerlink" title="反向代理"></a>反向代理</h3><p>反向代理代理的是服务端，再多台服务器分布的时候，为了能让客户端访问到的IP地址都为同一个网站，就需要使用反向代理</p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>nginx</tag>
+        <tag>反向代理</tag>
+        <tag>服务器</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>综应</title>
     <url>/2023/05/31/%E7%BB%BC%E5%BA%94/</url>
     <content><![CDATA[<h3 id="单一题"><a href="#单一题" class="headerlink" title="单一题"></a>单一题</h3><p><img src="/2023/05/31/%E7%BB%BC%E5%BA%94/%E5%8D%95%E4%B8%80%E9%A2%98.png" alt="单一题"></p>
@@ -84,22 +124,6 @@
         <tag>考编</tag>
         <tag>思维导图</tag>
         <tag>职业能力倾向测试</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Nginx</title>
-    <url>/2023/05/30/nginx/</url>
-    <content><![CDATA[<p>Nginx是一个高性能的HTTP和反向代理web服务器</p>
-<h3 id="正向代理"><a href="#正向代理" class="headerlink" title="正向代理"></a>正向代理</h3><p>客户端将请求发给代理服务器，通过代理服务器将请求转发给服务器，比如VPN</p>
-<h3 id="反向代理"><a href="#反向代理" class="headerlink" title="反向代理"></a>反向代理</h3><p>反向代理代理的是服务端，再多台服务器分布的时候，为了能让客户端访问到的IP地址都为同一个网站，就需要使用反向代理</p>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>nginx</tag>
-        <tag>反向代理</tag>
-        <tag>服务器</tag>
       </tags>
   </entry>
 </search>
