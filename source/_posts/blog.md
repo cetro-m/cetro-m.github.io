@@ -46,6 +46,31 @@ categories:
 2. 解析域名（可以通过 ping <用户名.github.io> 得到 ipv4 地址）
 3. 替换访问地址
 
+#### 添加本地搜索功能
+
+1. 添加插件
+
+   ```bash
+   npm install hexo-generator-searchdb --save
+   ```
+
+2. 配置根目录下的 _config.yml
+
+   ```yaml
+   search:
+     path: search.xml
+     field: post
+     content: true
+     format: html
+   ```
+
+3. 配置主题文件根目录下的 _config.yml
+
+   ```yaml
+   local_search:
+     enable: true
+   ```
+
 ### 使用
 
 1. 配置
@@ -64,20 +89,24 @@ categories:
 
 ### BTW
 
-使用 Hexo 搭建的博客，远程仓库中只保存了 Hexo 发布后的静态文件，而书写博客的 markdown 文件和配置文件等储存在本地，一旦更换操作环境就没法继续书写博客，可以将源码上传的仓库的新分支中解决这一问题。
+1. 使用 Hexo 搭建的博客，远程仓库中只保存了 Hexo 发布后的静态文件，而书写博客的 markdown 文件和配置文件等储存在本地，一旦更换操作环境就没法继续书写博客，可以将源码上传的仓库的新分支中解决这一问题。
 
-```bash
-git branch <分支名>       #新建分支
-git checkout <分支名>     #切换分支
-git push origin <分支名>  #推送本地仓库到新分支下
-```
+   ```bash
+   git branch <分支名>       #新建分支
+   git checkout <分支名>     #切换分支
+   git push origin <分支名>  #推送本地仓库到新分支下
+   ```
 
-参考链接：
+2. 图片上传问题解决方法：[javascript - hexo 图片路径错误/.com// - SegmentFault 思否](https://segmentfault.com/q/1010000020310187)
 
-[从零开始搭建个人博客](https://zhuanlan.zhihu.com/p/102592286)
 
-[使用git分支保存hexo博客源码到github](https://zhuanlan.zhihu.com/p/71544809)
 
-[文档 | Hexo](https://hexo.io/zh-cn/docs/)
+​	参考链接：
 
-[theme-next/hexo-theme-next: Elegant and powerful theme for Hexo. (github.com)](https://github.com/theme-next/hexo-theme-next)
+​	[从零开始搭建个人博客](https://zhuanlan.zhihu.com/p/102592286)
+
+​	[使用git分支保存hexo博客源码到github](https://zhuanlan.zhihu.com/p/71544809)
+
+​	[文档 | Hexo](https://hexo.io/zh-cn/docs/)
+
+​	[theme-next/hexo-theme-next: Elegant and powerful theme for Hexo. (github.com)](https://github.com/theme-next/hexo-theme-next)

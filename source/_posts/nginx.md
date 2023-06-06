@@ -3,6 +3,8 @@ title: Nginx
 date: 2023-05-30 17:47:26
 tags:
 - nginx
+- 反向代理
+- 服务器
 categories:
 - 学习
 ---

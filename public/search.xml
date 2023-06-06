@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>GitHub page + Hexo 搭建个人博客</title>
+    <url>/2023/05/30/blog/</url>
+    <content><![CDATA[<h3 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h3><h4 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h4><ol>
+<li><p>全局安装</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure></li>
+<li><p>相关命令</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo init   <span class="comment">#初始化</span></span><br><span class="line">hexo g      <span class="comment">#静态部署</span></span><br><span class="line">hexo s      <span class="comment">#启动本地服务器</span></span><br><span class="line">hexo d      <span class="comment">#部署到仓库</span></span><br><span class="line">hexo clean  <span class="comment">#清楚缓存文件db.json和已生成的静态文件public</span></span><br></pre></td></tr></table></figure></li>
+</ol>
+<h4 id="GitHub-page"><a href="#GitHub-page" class="headerlink" title="GitHub page"></a>GitHub page</h4><ol>
+<li>新建仓库，仓库名格式：用户名.github.io</li>
+<li>关联 Hexo 在本地生成的仓库</li>
+<li>Push 框架生成的静态资源到 GitHub 仓库</li>
+<li>访问 GitHub page 地址查看博客</li>
+</ol>
+<h4 id="Next"><a href="#Next" class="headerlink" title="Next"></a>Next</h4><ol>
+<li>下载 <a href="https://github.com/theme-next/hexo-theme-next">Next</a> 主题至 blog/themes 目录下</li>
+<li>在根目录下的 _config.yml 配置文件中修改主题</li>
+</ol>
+<h4 id="域名（可选）"><a href="#域名（可选）" class="headerlink" title="域名（可选）"></a>域名（可选）</h4><ol>
+<li>购买域名</li>
+<li>解析域名（可以通过 ping &lt;用户名.github.io&gt; 得到 ipv4 地址）</li>
+<li>替换访问地址</li>
+</ol>
+<h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><ol>
+<li><p>配置</p>
+<p><a href="https://hexo.io/zh-cn/docs/configuration">Hexo 配置文档</a></p>
+</li>
+<li><p>编辑</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#layout包含post、page、draft</span></span><br><span class="line"><span class="comment">#post是新博客</span></span><br><span class="line"><span class="comment">#page是新页面</span></span><br><span class="line"><span class="comment">#draft是新草稿</span></span><br><span class="line">hexo new [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h3 id="BTW"><a href="#BTW" class="headerlink" title="BTW"></a>BTW</h3><ol>
+<li><p>使用 Hexo 搭建的博客，远程仓库中只保存了 Hexo 发布后的静态文件，而书写博客的 markdown 文件和配置文件等储存在本地，一旦更换操作环境就没法继续书写博客，可以将源码上传的仓库的新分支中解决这一问题。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git branch &lt;分支名&gt;       <span class="comment">#新建分支</span></span><br><span class="line">git checkout &lt;分支名&gt;     <span class="comment">#切换分支</span></span><br><span class="line">git push origin &lt;分支名&gt;  <span class="comment">#推送本地仓库到新分支下</span></span><br></pre></td></tr></table></figure></li>
+<li><p>图片上传问题解决方法：<a href="https://segmentfault.com/q/1010000020310187">javascript - hexo 图片路径错误/.com// - SegmentFault 思否</a></p>
+</li>
+</ol>
+<p>参考链接：</p>
+<p><a href="https://zhuanlan.zhihu.com/p/102592286">从零开始搭建个人博客</a></p>
+<p><a href="https://zhuanlan.zhihu.com/p/71544809">使用git分支保存hexo博客源码到github</a></p>
+<p><a href="https://hexo.io/zh-cn/docs/">文档 | Hexo</a></p>
+<p><a href="https://github.com/theme-next/hexo-theme-next">theme-next/hexo-theme-next: Elegant and powerful theme for Hexo. (github.com)</a></p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>git</tag>
+        <tag>next</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>行测</title>
+    <url>/2023/06/06/%E8%A1%8C%E6%B5%8B/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>公务员</category>
+      </categories>
+      <tags>
+        <tag>行政职业能力测验</tag>
+        <tag>考公</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>申论</title>
+    <url>/2023/06/06/%E7%94%B3%E8%AE%BA/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>公务员</category>
+      </categories>
+      <tags>
+        <tag>考公</tag>
+        <tag>申论概述</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Nginx</title>
+    <url>/2023/05/30/nginx/</url>
+    <content><![CDATA[<p>Nginx是一个高性能的HTTP和反向代理web服务器</p>
+<h3 id="正向代理"><a href="#正向代理" class="headerlink" title="正向代理"></a>正向代理</h3><p>客户端将请求发给代理服务器，通过代理服务器将请求转发给服务器，比如VPN</p>
+<h3 id="反向代理"><a href="#反向代理" class="headerlink" title="反向代理"></a>反向代理</h3><p>反向代理代理的是服务端，再多台服务器分布的时候，为了能让客户端访问到的IP地址都为同一个网站，就需要使用反向代理</p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>nginx</tag>
+        <tag>反向代理</tag>
+        <tag>服务器</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>综应</title>
+    <url>/2023/05/31/%E7%BB%BC%E5%BA%94/</url>
+    <content><![CDATA[<h3 id="单一题"><a href="#单一题" class="headerlink" title="单一题"></a>单一题</h3><p><img src="/2023/05/31/%E7%BB%BC%E5%BA%94/%E5%8D%95%E4%B8%80%E9%A2%98.png" alt="单一题"></p>
+<h3 id="综合题"><a href="#综合题" class="headerlink" title="综合题"></a>综合题</h3><p><img src="/2023/05/31/%E7%BB%BC%E5%BA%94/%E7%BB%BC%E5%90%88%E9%A2%98.png" alt="综合题"></p>
+<h3 id="公文写作"><a href="#公文写作" class="headerlink" title="公文写作"></a>公文写作</h3><p><img src="/2023/05/31/%E7%BB%BC%E5%BA%94/%E5%85%AC%E6%96%87%E5%86%99%E4%BD%9C.png" alt="公文写作"></p>
+<h3 id="材料作文"><a href="#材料作文" class="headerlink" title="材料作文"></a>材料作文</h3><p><img src="/2023/05/31/%E7%BB%BC%E5%BA%94/%E6%9D%90%E6%96%99%E4%BD%9C%E6%96%87.png" alt="材料作文"></p>
+]]></content>
+      <categories>
+        <category>事业编</category>
+      </categories>
+      <tags>
+        <tag>考编</tag>
+        <tag>综合应用能力</tag>
+        <tag>思维导图</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>职测</title>
+    <url>/2023/05/31/%E8%81%8C%E6%B5%8B/</url>
+    <content><![CDATA[<h3 id="推理判断"><a href="#推理判断" class="headerlink" title="推理判断"></a>推理判断</h3><p><img src="/2023/05/31/%E8%81%8C%E6%B5%8B/%E6%8E%A8%E7%90%86%E5%88%A4%E6%96%AD.png" alt="推理判断"></p>
+<h3 id="数量关系"><a href="#数量关系" class="headerlink" title="数量关系"></a>数量关系</h3><p><img src="/2023/05/31/%E8%81%8C%E6%B5%8B/%E6%95%B0%E9%87%8F%E5%85%B3%E7%B3%BB.png" alt="数量关系"></p>
+<h3 id="言语理解与表达"><a href="#言语理解与表达" class="headerlink" title="言语理解与表达"></a>言语理解与表达</h3><p><img src="/2023/05/31/%E8%81%8C%E6%B5%8B/%E8%A8%80%E8%AF%AD%E7%90%86%E8%A7%A3%E4%B8%8E%E8%A1%A8%E8%BE%BE.png" alt="言语理解与表达"></p>
+<h3 id="资料分析"><a href="#资料分析" class="headerlink" title="资料分析"></a>资料分析</h3><p><img src="/2023/05/31/%E8%81%8C%E6%B5%8B/%E8%B5%84%E6%96%99%E5%88%86%E6%9E%90.png" alt="资料分析"></p>
+]]></content>
+      <categories>
+        <category>事业编</category>
+      </categories>
+      <tags>
+        <tag>考编</tag>
+        <tag>思维导图</tag>
+        <tag>职业能力倾向测试</tag>
+      </tags>
+  </entry>
+</search>
