@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Nginx</title>
+    <url>/2023/05/30/nginx/</url>
+    <content><![CDATA[<p>Nginx是一个高性能的HTTP和反向代理web服务器</p>
+<h3 id="正向代理"><a href="#正向代理" class="headerlink" title="正向代理"></a>正向代理</h3><p>客户端将请求发给代理服务器，通过代理服务器将请求转发给服务器，比如VPN</p>
+<h3 id="反向代理"><a href="#反向代理" class="headerlink" title="反向代理"></a>反向代理</h3><p>反向代理代理的是服务端，再多台服务器分布的时候，为了能让客户端访问到的IP地址都为同一个网站，就需要使用反向代理</p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>nginx</tag>
+        <tag>反向代理</tag>
+        <tag>服务器</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>GitHub page + Hexo 搭建个人博客</title>
     <url>/2023/05/30/blog/</url>
     <content><![CDATA[<h3 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h3><h4 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h4><ol>
@@ -63,29 +79,44 @@
   <entry>
     <title>申论</title>
     <url>/2023/06/06/%E7%94%B3%E8%AE%BA/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<h3 id="单一题"><a href="#单一题" class="headerlink" title="单一题"></a>单一题</h3><ul>
+<li>题干要素明确</li>
+<li>常见要素<ul>
+<li>问题，负面消极词汇</li>
+<li>影响<ul>
+<li>意义（好的方面）</li>
+<li>危害（坏的方面）</li>
+</ul>
+</li>
+<li>对策，动词加名词</li>
+<li>态度，观点、看法</li>
+<li>事例，论据充实、有理有据</li>
+</ul>
+</li>
+<li>答题步骤<ol>
+<li>审题<ul>
+<li>作答范围</li>
+<li>主题与结构</li>
+<li>作答要求</li>
+</ul>
+</li>
+<li>阅读材料<ul>
+<li>摘抄</li>
+<li>概括归纳</li>
+<li>分析推导</li>
+<li>组织答案</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+]]></content>
       <categories>
-        <category>公务员</category>
+        <category>公务员n</category>
       </categories>
       <tags>
         <tag>申论概述</tag>
         <tag>考公</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Nginx</title>
-    <url>/2023/05/30/nginx/</url>
-    <content><![CDATA[<p>Nginx是一个高性能的HTTP和反向代理web服务器</p>
-<h3 id="正向代理"><a href="#正向代理" class="headerlink" title="正向代理"></a>正向代理</h3><p>客户端将请求发给代理服务器，通过代理服务器将请求转发给服务器，比如VPN</p>
-<h3 id="反向代理"><a href="#反向代理" class="headerlink" title="反向代理"></a>反向代理</h3><p>反向代理代理的是服务端，再多台服务器分布的时候，为了能让客户端访问到的IP地址都为同一个网站，就需要使用反向代理</p>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>nginx</tag>
-        <tag>反向代理</tag>
-        <tag>服务器</tag>
       </tags>
   </entry>
   <entry>
