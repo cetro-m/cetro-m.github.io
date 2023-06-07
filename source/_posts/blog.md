@@ -92,9 +92,16 @@ categories:
 1. 使用 Hexo 搭建的博客，远程仓库中只保存了 Hexo 发布后的静态文件，而书写博客的 markdown 文件和配置文件等储存在本地，一旦更换操作环境就没法继续书写博客，可以将源码上传的仓库的新分支中解决这一问题。
 
    ```bash
-   git branch <分支名>       #新建分支
-   git checkout <分支名>     #切换分支
-   git push origin <分支名>  #推送本地仓库到新分支下
+   git branch -a            # all 查看所有分支
+   git branch -r            # remote 查看远程分支
+   
+   git branch [分支名]       # 新建分支
+   git checkout [分支名]     # 切换分支
+   
+   git add .                # 添加所有文件到暂存区
+   git add [文件名]          # 添加指定文件到暂存区
+   git commit -m 'mark'     # 将暂存区内容添加到本地仓库
+   git push origin [分支名]  # 推送本地仓库到远程仓库
    ```
 
 2. 图片上传问题解决方法：[javascript - hexo 图片路径错误/.com// - SegmentFault 思否](https://segmentfault.com/q/1010000020310187)
