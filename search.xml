@@ -17,6 +17,23 @@
       </tags>
   </entry>
   <entry>
+    <title>综应</title>
+    <url>/2023/05/31/%E7%BB%BC%E5%BA%94/</url>
+    <content><![CDATA[<h3 id="单一题"><a href="#单一题" class="headerlink" title="单一题"></a>单一题</h3><p><img src="/2023/05/31/%E7%BB%BC%E5%BA%94/%E5%8D%95%E4%B8%80%E9%A2%98.png" alt="单一题"></p>
+<h3 id="综合题"><a href="#综合题" class="headerlink" title="综合题"></a>综合题</h3><p><img src="/2023/05/31/%E7%BB%BC%E5%BA%94/%E7%BB%BC%E5%90%88%E9%A2%98.png" alt="综合题"></p>
+<h3 id="公文写作"><a href="#公文写作" class="headerlink" title="公文写作"></a>公文写作</h3><p><img src="/2023/05/31/%E7%BB%BC%E5%BA%94/%E5%85%AC%E6%96%87%E5%86%99%E4%BD%9C.png" alt="公文写作"></p>
+<h3 id="材料作文"><a href="#材料作文" class="headerlink" title="材料作文"></a>材料作文</h3><p><img src="/2023/05/31/%E7%BB%BC%E5%BA%94/%E6%9D%90%E6%96%99%E4%BD%9C%E6%96%87.png" alt="材料作文"></p>
+]]></content>
+      <categories>
+        <category>事业编</category>
+      </categories>
+      <tags>
+        <tag>考编</tag>
+        <tag>综合应用能力</tag>
+        <tag>思维导图</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>GitHub page + Hexo 搭建个人博客</title>
     <url>/2023/05/30/blog/</url>
     <content><![CDATA[<h3 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h3><h4 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h4><ol>
@@ -25,6 +42,8 @@
 <li><p>相关命令</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo init   <span class="comment">#初始化</span></span><br><span class="line">hexo g      <span class="comment">#静态部署</span></span><br><span class="line">hexo s      <span class="comment">#启动本地服务器</span></span><br><span class="line">hexo d      <span class="comment">#部署到仓库</span></span><br><span class="line">hexo clean  <span class="comment">#清楚缓存文件db.json和已生成的静态文件public</span></span><br></pre></td></tr></table></figure></li>
 </ol>
+<span id="more"></span>
+
 <h4 id="GitHub-page"><a href="#GitHub-page" class="headerlink" title="GitHub page"></a>GitHub page</h4><ol>
 <li>新建仓库，仓库名格式：用户名.github.io</li>
 <li>关联 Hexo 在本地生成的仓库</li>
@@ -120,35 +139,6 @@
       </tags>
   </entry>
   <entry>
-    <title>综应</title>
-    <url>/2023/05/31/%E7%BB%BC%E5%BA%94/</url>
-    <content><![CDATA[<h3 id="单一题"><a href="#单一题" class="headerlink" title="单一题"></a>单一题</h3><p><img src="/2023/05/31/%E7%BB%BC%E5%BA%94/%E5%8D%95%E4%B8%80%E9%A2%98.png" alt="单一题"></p>
-<h3 id="综合题"><a href="#综合题" class="headerlink" title="综合题"></a>综合题</h3><p><img src="/2023/05/31/%E7%BB%BC%E5%BA%94/%E7%BB%BC%E5%90%88%E9%A2%98.png" alt="综合题"></p>
-<h3 id="公文写作"><a href="#公文写作" class="headerlink" title="公文写作"></a>公文写作</h3><p><img src="/2023/05/31/%E7%BB%BC%E5%BA%94/%E5%85%AC%E6%96%87%E5%86%99%E4%BD%9C.png" alt="公文写作"></p>
-<h3 id="材料作文"><a href="#材料作文" class="headerlink" title="材料作文"></a>材料作文</h3><p><img src="/2023/05/31/%E7%BB%BC%E5%BA%94/%E6%9D%90%E6%96%99%E4%BD%9C%E6%96%87.png" alt="材料作文"></p>
-]]></content>
-      <categories>
-        <category>事业编</category>
-      </categories>
-      <tags>
-        <tag>考编</tag>
-        <tag>综合应用能力</tag>
-        <tag>思维导图</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>行测</title>
-    <url>/2023/06/06/%E8%A1%8C%E6%B5%8B/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>公务员</category>
-      </categories>
-      <tags>
-        <tag>考公</tag>
-        <tag>行政职业能力测验</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>职测</title>
     <url>/2023/05/31/%E8%81%8C%E6%B5%8B/</url>
     <content><![CDATA[<h3 id="推理判断"><a href="#推理判断" class="headerlink" title="推理判断"></a>推理判断</h3><p><img src="/2023/05/31/%E8%81%8C%E6%B5%8B/%E6%8E%A8%E7%90%86%E5%88%A4%E6%96%AD.png" alt="推理判断"></p>
@@ -163,6 +153,18 @@
         <tag>考编</tag>
         <tag>思维导图</tag>
         <tag>职业能力倾向测试</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>行测</title>
+    <url>/2023/06/06/%E8%A1%8C%E6%B5%8B/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>公务员</category>
+      </categories>
+      <tags>
+        <tag>考公</tag>
+        <tag>行政职业能力测验</tag>
       </tags>
   </entry>
 </search>
