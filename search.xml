@@ -1,6 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Nginx</title>
+    <url>/2023/05/30/nginx/</url>
+    <content><![CDATA[<p>Nginx是一个高性能的HTTP和反向代理web服务器</p>
+<span id="more"></span>
+
+<h3 id="正向代理"><a href="#正向代理" class="headerlink" title="正向代理"></a>正向代理</h3><p>客户端将请求发给代理服务器，通过代理服务器将请求转发给服务器，比如VPN</p>
+<h3 id="反向代理"><a href="#反向代理" class="headerlink" title="反向代理"></a>反向代理</h3><p>反向代理代理的是服务端，再多台服务器分布的时候，为了能让客户端访问到的IP地址都为同一个网站，就需要使用反向代理</p>
+]]></content>
+      <categories>
+        <category>study</category>
+      </categories>
+      <tags>
+        <tag>nginx</tag>
+        <tag>反向代理</tag>
+        <tag>服务器</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2syb</title>
+    <url>/2023/06/14/2syb/</url>
+    <content><![CDATA[<span id="more"></span>
+
+<h3 id="职测"><a href="#职测" class="headerlink" title="职测"></a>职测</h3><h4 id="推理判断"><a href="#推理判断" class="headerlink" title="推理判断"></a>推理判断</h4><p><img src="/2023/06/14/2syb/%E6%8E%A8%E7%90%86%E5%88%A4%E6%96%AD.png" alt="推理判断"></p>
+<h4 id="数量关系"><a href="#数量关系" class="headerlink" title="数量关系"></a>数量关系</h4><p><img src="/2023/06/14/2syb/%E6%95%B0%E9%87%8F%E5%85%B3%E7%B3%BB.png" alt="数量关系"></p>
+<h4 id="言语理解与表达"><a href="#言语理解与表达" class="headerlink" title="言语理解与表达"></a>言语理解与表达</h4><p><img src="/2023/06/14/2syb/%E8%A8%80%E8%AF%AD%E7%90%86%E8%A7%A3%E4%B8%8E%E8%A1%A8%E8%BE%BE.png" alt="言语理解与表达"></p>
+<h4 id="资料分析"><a href="#资料分析" class="headerlink" title="资料分析"></a>资料分析</h4><p><img src="/2023/06/14/2syb/%E8%B5%84%E6%96%99%E5%88%86%E6%9E%90.png" alt="资料分析"></p>
+<h3 id="综应"><a href="#综应" class="headerlink" title="综应"></a>综应</h3><h4 id="单一题"><a href="#单一题" class="headerlink" title="单一题"></a>单一题</h4><p><img src="/2023/06/14/2syb/%E5%8D%95%E4%B8%80%E9%A2%98.png" alt="单一题"></p>
+<h4 id="综合题"><a href="#综合题" class="headerlink" title="综合题"></a>综合题</h4><p><img src="/2023/06/14/2syb/%E7%BB%BC%E5%90%88%E9%A2%98.png" alt="综合题"></p>
+<h4 id="公文写作"><a href="#公文写作" class="headerlink" title="公文写作"></a>公文写作</h4><p><img src="/2023/06/14/2syb/%E5%85%AC%E6%96%87%E5%86%99%E4%BD%9C.png" alt="公文写作"></p>
+<h4 id="材料作文"><a href="#材料作文" class="headerlink" title="材料作文"></a>材料作文</h4><p><img src="/2023/06/14/2syb/%E6%9D%90%E6%96%99%E4%BD%9C%E6%96%87.png" alt="材料作文"></p>
+]]></content>
+      <categories>
+        <category>事业单位考试</category>
+      </categories>
+      <tags>
+        <tag>考编</tag>
+        <tag>综应</tag>
+        <tag>职测</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>GitHub page + Hexo 搭建个人博客</title>
     <url>/2023/05/30/blog/</url>
     <content><![CDATA[<h3 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h3><h4 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h4><ol>
@@ -245,6 +286,42 @@
 <li><input disabled type="checkbox"> 综合分析</li>
 <li><input disabled type="checkbox"> 公式整理</li>
 </ul>
+<h2 id="申论"><a href="#申论" class="headerlink" title="申论"></a>申论</h2><ul>
+<li><input disabled type="checkbox"> 申论基础<ul>
+<li><input disabled type="checkbox"> 大纲要求</li>
+<li><input disabled type="checkbox"> 要素题型</li>
+<li><input disabled type="checkbox"> 答题步骤</li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> 单一题<ul>
+<li><input disabled type="checkbox"> 问题</li>
+<li><input disabled type="checkbox"> 影响</li>
+<li><input disabled type="checkbox"> 对策</li>
+<li><input disabled type="checkbox"> 原因</li>
+<li><input disabled type="checkbox"> 其他</li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> 综合题<ul>
+<li><input disabled type="checkbox"> 词句解释</li>
+<li><input disabled type="checkbox"> 观点现象分析</li>
+<li><input disabled type="checkbox"> 对比分析</li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> 公文题<ul>
+<li><input disabled type="checkbox"> 格式要素</li>
+<li><input disabled type="checkbox"> 方案类</li>
+<li><input disabled type="checkbox"> 总结类</li>
+<li><input disabled type="checkbox"> 宣传类</li>
+<li><input disabled type="checkbox"> 评论类</li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> 文章写作<ul>
+<li><input disabled type="checkbox"> 评分标准</li>
+<li><input disabled type="checkbox"> 主体、观点</li>
+<li><input disabled type="checkbox"> 行文结构</li>
+</ul>
+</li>
+</ul>
 ]]></content>
       <categories>
         <category>公务员考试</category>
@@ -253,47 +330,6 @@
         <tag>考公</tag>
         <tag>行测</tag>
         <tag>申论</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Nginx</title>
-    <url>/2023/05/30/nginx/</url>
-    <content><![CDATA[<p>Nginx是一个高性能的HTTP和反向代理web服务器</p>
-<span id="more"></span>
-
-<h3 id="正向代理"><a href="#正向代理" class="headerlink" title="正向代理"></a>正向代理</h3><p>客户端将请求发给代理服务器，通过代理服务器将请求转发给服务器，比如VPN</p>
-<h3 id="反向代理"><a href="#反向代理" class="headerlink" title="反向代理"></a>反向代理</h3><p>反向代理代理的是服务端，再多台服务器分布的时候，为了能让客户端访问到的IP地址都为同一个网站，就需要使用反向代理</p>
-]]></content>
-      <categories>
-        <category>study</category>
-      </categories>
-      <tags>
-        <tag>nginx</tag>
-        <tag>反向代理</tag>
-        <tag>服务器</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2syb</title>
-    <url>/2023/06/14/2syb/</url>
-    <content><![CDATA[<span id="more"></span>
-
-<h3 id="职测"><a href="#职测" class="headerlink" title="职测"></a>职测</h3><h4 id="推理判断"><a href="#推理判断" class="headerlink" title="推理判断"></a>推理判断</h4><p><img src="/2023/06/14/2syb/%E6%8E%A8%E7%90%86%E5%88%A4%E6%96%AD.png" alt="推理判断"></p>
-<h4 id="数量关系"><a href="#数量关系" class="headerlink" title="数量关系"></a>数量关系</h4><p><img src="/2023/06/14/2syb/%E6%95%B0%E9%87%8F%E5%85%B3%E7%B3%BB.png" alt="数量关系"></p>
-<h4 id="言语理解与表达"><a href="#言语理解与表达" class="headerlink" title="言语理解与表达"></a>言语理解与表达</h4><p><img src="/2023/06/14/2syb/%E8%A8%80%E8%AF%AD%E7%90%86%E8%A7%A3%E4%B8%8E%E8%A1%A8%E8%BE%BE.png" alt="言语理解与表达"></p>
-<h4 id="资料分析"><a href="#资料分析" class="headerlink" title="资料分析"></a>资料分析</h4><p><img src="/2023/06/14/2syb/%E8%B5%84%E6%96%99%E5%88%86%E6%9E%90.png" alt="资料分析"></p>
-<h3 id="综应"><a href="#综应" class="headerlink" title="综应"></a>综应</h3><h4 id="单一题"><a href="#单一题" class="headerlink" title="单一题"></a>单一题</h4><p><img src="/2023/06/14/2syb/%E5%8D%95%E4%B8%80%E9%A2%98.png" alt="单一题"></p>
-<h4 id="综合题"><a href="#综合题" class="headerlink" title="综合题"></a>综合题</h4><p><img src="/2023/06/14/2syb/%E7%BB%BC%E5%90%88%E9%A2%98.png" alt="综合题"></p>
-<h4 id="公文写作"><a href="#公文写作" class="headerlink" title="公文写作"></a>公文写作</h4><p><img src="/2023/06/14/2syb/%E5%85%AC%E6%96%87%E5%86%99%E4%BD%9C.png" alt="公文写作"></p>
-<h4 id="材料作文"><a href="#材料作文" class="headerlink" title="材料作文"></a>材料作文</h4><p><img src="/2023/06/14/2syb/%E6%9D%90%E6%96%99%E4%BD%9C%E6%96%87.png" alt="材料作文"></p>
-]]></content>
-      <categories>
-        <category>事业单位考试</category>
-      </categories>
-      <tags>
-        <tag>考编</tag>
-        <tag>综应</tag>
-        <tag>职测</tag>
       </tags>
   </entry>
 </search>
