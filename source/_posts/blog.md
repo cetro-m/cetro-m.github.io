@@ -6,7 +6,7 @@ tags:
 - git
 - next
 categories:
-- 学习
+- blog
 ---
 ### 搭建
 
@@ -27,6 +27,8 @@ categories:
    hexo d      #部署到仓库
    hexo clean  #清楚缓存文件db.json和已生成的静态文件public
    ```
+
+<!-- more -->
 
 #### GitHub page
 

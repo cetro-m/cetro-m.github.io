@@ -6,10 +6,12 @@ tags:
 - 反向代理
 - 服务器
 categories:
-- 学习
+- net
 ---
 
 Nginx是一个高性能的HTTP和反向代理web服务器
+
+<!-- more -->
 
 ### 正向代理
 
